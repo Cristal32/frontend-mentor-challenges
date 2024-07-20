@@ -3,6 +3,10 @@
     font-family: 'Outfit';
 }
 
+h1 {
+    display: none;
+}
+
 body, html {
     margin: 0;
     height: 100%;

@@ -15,7 +15,7 @@
         <tr>
             <th>02. </th>
             <th><a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/02.%20blog-preview-card">Blog Preview Card</a></th>
-            <th><a href="https://cristal32.github.io/frontend-mentor-challenges/02. blog-preview-card/" target="_blank">Live Demo</a></th>
+            <th><a href="https://cristal32.github.io/frontend-mentor-challenges/solutions/02. blog-preview-card/" target="_blank">Live Demo</a></th>
         </tr>
     </table>
 </div>

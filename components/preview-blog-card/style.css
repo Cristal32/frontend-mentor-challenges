@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Figtree-Italic';
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-Variable';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url('assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Figtree-SemiBold'
+}
+
+body, html {
+    background-color: hsl(47, 88%, 63%);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    font-size: 16px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 24px;
+    margin-left: 25px;
+    margin-right: 35px;
+    border-radius: 16px;
+    border: 2px solid black;
+    box-shadow: black 7px 7px;
+    height: fit-content;
+}
+
+.blog-img-container {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.blog-img-container img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.blog-content {
+    margin: 24px 0;
+}
+
+.learning-btn {
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.learning-btn {
+    font-family: 'Figtree-ExtraBold';
+    font-size: 20px;
+    color: hsl(0, 0%, 7%);
+}
+
+.learning-btn:hover {
+    background-color: hsl(47, 61%, 52%);
+    cursor: pointer;
+}
+
+.publish-date {
+    margin-bottom: 12px;
+}
+
+.blog-title {
+    font-family: 'Figtree-ExtraBold';
+    font-size: 1.25em;
+}
+
+.hoverable:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.blog-desc {
+    color: hsl(0, 0%, 42%);
+    font-family: 'Figtree-Variable';
+    font-weight: 500;
+    font-size: 75%;
+    line-height: 1.6;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 12px;
+}
+
+.profile img {
+    width: 32px;
+}
+
+.avatar-name {
+    font-family: 'Figtree-ExtraBold'
+}
+
+.attribution { 
+    position:absolute;
+    bottom: 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 431px) {
+    .card {
+       margin: 21px;
+       width: 384px;
+    }
+
+    .blog-title {
+        font-size: 1.75em;
+    }
+
+    .blog-desc {
+        font-size: 1.05em;
+    }
+}

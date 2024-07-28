@@ -108,5 +108,6 @@ main {
 .card-desc {
     display: flex;
     flex-direction: column;
+    gap: 3px;
 }
 

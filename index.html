@@ -5,20 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="./assets/style/styles.css">
-    <title>Frontend Mentor | Cristal32</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Cristal32 | Frontend Mentor</title>
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   </head>
   <body>
     
-      <main>
-        <h1>home page</h1>
+      <header>
+        <div id="intro">
+          <h1>Welcome to my frontend mentor homepage</h1>
+          <div id="intro-desc">
+            This website is dedicated to learning CSS, no help attached. Just pure raw CSS only. <br>
+              🍀 Let the challenge begin! 🍀
+          </div>
+        </div>
+      </header>
+
+      <main>  
+        <div>
+          <div style="margin-bottom: 2vh;">
+            My challenge solutions:
+          </div>
+
+          <div class="challenge-list">
+
+            <div class="challenge-card">
+              <div class="card-img-container">
+                <img src="qr-code-component/screenshotMobile.png" alt="qr code component img">
+              </div>
+              <div class="card-content">
+                <div class="card-title">
+                  <a href="https://cristal32.github.io/frontend-mentor-challenges/qr-code-component/" target="_blank">
+                    <h3>Qr Code Component</h3>
+                  </a>
+                </div>
+                <div class="card-desc">
+                  <a href="https://www.frontendmentor.io/solutions/qr-code-component-solution-with-css-flexbox-4e1FKete9H">
+                    <span>
+                      <image src="assets/images/favicon-32x32.png" width="20px"/>
+                      Frontend Mentor site
+                    </span>
+                  </a>
+                  <a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/qr-code-component" target="_blank">
+                    <span>
+                      <i class="fa-brands fa-github"></i>
+                      Repository
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="challenge-card">
+              <div class="card-img-container">
+                <img src="blog-preview-card/screenshotMobile.png" alt="qr code component img">
+              </div>
+              <div class="card-content">
+                <div class="card-title">
+                  <a href="https://cristal32.github.io/blog-preview-frontendMentor/" target="_blank">
+                    <h3>Blog Preview Card</h3>
+                  </a>
+                </div>
+                <div class="card-desc">
+                  <a href="https://www.frontendmentor.io/solutions/responsive-blog-preview-card-Dr48RX2xBn">
+                    <span>
+                      <image src="assets/images/favicon-32x32.png" width="20px"/>
+                      Frontend Mentor site
+                    </span>
+                  </a>
+                  <a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/blog-preview-card" target="_blank">
+                    <span>
+                      <i class="fa-brands fa-github"></i>
+                      Repository
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </main>
-  
-      <footer class="attribution">
-          Challenges by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="https://github.com/Cristal32">Cristal32</a>.
-      </footer>
     
   </body>
 </html>

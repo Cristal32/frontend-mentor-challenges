@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Cristal32/blog-preview-frontendMentor
-- Live Site URL: https://cristal32.github.io/blog-preview-frontendMentor/
+- Solution URL: [Github repository](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/preview-blog-card)
+- Live Site URL: [Github pages live site](https://cristal32.github.io/blog-preview-frontendMentor/)
 
 ## My process
 

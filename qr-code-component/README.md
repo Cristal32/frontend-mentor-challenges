@@ -25,8 +25,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: (https://github.com/Cristal32/qr-code-solution-withPureCss)
-- Live Site URL: (https://cristal32.github.io/qr-code-solution-withPureCss/)
+- Solution URL: [Github repository](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/qr-code-component)
+- Live Site URL: [Github pages live site](https://cristal32.github.io/frontend-mentor-challenges/qr-code-component/)
 
 ## My process
 

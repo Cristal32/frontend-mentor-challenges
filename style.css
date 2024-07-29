@@ -83,6 +83,7 @@ main {
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     padding: 20px;
+    border-radius: 15px
 }
 
 .card-img-container {
@@ -91,11 +92,12 @@ main {
     display: flex;
     overflow: hidden;
     justify-content: center;
+    background-color: rgb(244, 243, 243);
+    border-radius: 15px;
 }
 
 .card-img-container img {
-    width: 100%;
-    height: auto;
+    width: 60%;
     border-radius: 1%;
     transform: scale(1.0);
     transition: transform 0.2s;

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 4.5vh;
+    width: fit-content;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 9vh;
+    width: 9vh;
+    background-image: url(assets/images/avatar-jessica.jpeg);
+    background-size: cover;
+}
+
+.avatar:hover {
+    cursor: pointer;
+}
+
+.user-name {
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 1.5vh;
+}
+
+.user-name:hover {
+    color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.user-country {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 3vh;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75vh;
+}
+
+.social-link {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.social-link:hover {
+    background-color: hsl(0, 0%, 33%);
+    cursor: pointer;
+}
+
+.social-link:active {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 20%);
+    font-weight: 700;
+}
+
+/* ===================== footer ===================== */
+.attribution { 
+    position: absolute;
+    bottom: 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(75, 94%, 57%); 
+}

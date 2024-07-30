@@ -12,6 +12,11 @@ body, html {
     font-size: .9rem;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 main {
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
@@ -39,8 +44,6 @@ main {
     border-radius: 50%;
     height: 9vh;
     width: 9vh;
-    background-image: url(assets/images/avatar-jessica.jpeg);
-    background-size: cover;
 }
 
 .avatar:hover {

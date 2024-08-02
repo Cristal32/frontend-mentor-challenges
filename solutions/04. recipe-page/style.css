@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* ===================== Colors ===================== */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+/* ===================== Body ===================== */
+.body, html {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', 'Young Serif', sans-serif;
+    background-color: var(--Stone100);
+    font-size: .9em;
+}
+
+/* ===================== Main content ===================== */
+main {
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 3vh;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/* ------------- image ------------- */
+.img-container {
+    text-align: center;
+}
+
+.img-container img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* ------------- Title & description ------------- */
+.recipe-title {
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    font-size: 2cap;
+    margin-bottom: .35em;
+}
+
+/* ===================== footer ===================== */
+footer { 
+    position: relative;
+    bottom: 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer a { 
+    color: var(--Brown800); 
+}

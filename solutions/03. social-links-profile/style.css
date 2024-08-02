@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
 body, html {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(0, 0%, 8%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--Grey900);
+    color: var(--White);
     font-family: 'Inter', sans-serif;
-    font-size: .9rem;
+    font-size: .9em;
 }
 
 a {
@@ -17,16 +25,20 @@ a {
     color: inherit;
 }
 
+/* =================== Main content ===================== */
+/* Original container */
 main {
-    background-color: hsl(0, 0%, 12%);
+    background-color: var(--Grey800);
     border-radius: 10px;
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
     padding: 4.5vh;
     width: fit-content;
 }
 
+/* -------- Profile section -------- */
 .profile-container {
     display: flex;
     flex-direction: column;
@@ -57,16 +69,17 @@ main {
 }
 
 .user-name:hover {
-    color: hsl(75, 94%, 57%);
+    color: var(--Green);
     cursor: pointer;
 }
 
 .user-country {
-    color: hsl(75, 94%, 57%);
+    color: var(--Green);
     font-weight: 600;
     margin-bottom: 3vh;
 }
 
+/* -------- Social links section -------- */
 .links-container {
     display: flex;
     flex-direction: column;
@@ -74,21 +87,16 @@ main {
 }
 
 .social-link {
-    background-color: hsl(0, 0%, 20%);
+    background-color: var(--Grey700);
     padding: 10px;
     border-radius: 6px;
     font-weight: 600;
 }
 
 .social-link:hover {
-    background-color: hsl(0, 0%, 33%);
+    background-color: var(--Green);
     cursor: pointer;
-}
-
-.social-link:active {
-    background-color: hsl(75, 94%, 57%);
-    color:hsl(0, 0%, 20%);
-    font-weight: 700;
+    color: var(--Grey700);
 }
 
 /* ===================== footer ===================== */
@@ -98,6 +106,19 @@ main {
     font-size: 11px; 
     text-align: center; 
 }
+
 .attribution a { 
-    color: hsl(75, 94%, 57%); 
+    color: var(--Green); 
+}
+
+/* ==================== Responsiveness ================ */
+@media only screen and (max-width: 320px) {
+
+    .user-country {
+        font-size: .85em
+    }
+
+    .user-quote {
+        font-size: .85em;
+    }
 }

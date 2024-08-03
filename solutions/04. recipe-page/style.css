@@ -15,7 +15,6 @@
 
 /* ===================== Body ===================== */
 .body, html {
-    position: absolute;
     height: 100%;
     margin: 0;
     display: flex;
@@ -32,7 +31,14 @@ main {
     border-radius: 10px;
     padding: 3vh;
     margin-bottom: 10px;
-    width: 80%;
+    height: fit-content;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    height: fit-content;
 }
 
 /* ------------- image ------------- */
@@ -51,6 +57,22 @@ main {
     font-weight: 400;
     font-size: 2cap;
     margin-bottom: .35em;
+}
+
+/* ===================== Preparation time ===================== */
+.preparation-time {
+    background-color: var(--Rose50);
+    padding: 2vh;
+}
+
+.preparation-time-title {
+    color: var(--Rose800);
+    font-weight: 700;
+}
+
+.preparation-item {
+    font-weight: 700;
+    color: var(--Stone600)
 }
 
 /* ===================== footer ===================== */

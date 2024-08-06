@@ -14,9 +14,18 @@
 }
 
 /* ===================== Body ===================== */
-.body, html {
-    height: 100%;
+* {
+    padding: 0;
     margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: .5px solid var(--Stone100);
+}
+
+body, html {
+    height: 100%;
     font-family: 'Outfit', 'Young Serif', sans-serif;
     background-color: var(--Stone100);
     font-size: .9em;
@@ -39,25 +48,18 @@
 }
 
 /* ----------- List styles ------------ */
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 li {
-    display: flex;
-    align-items: center;
-    padding-left: 1em;
-    position: relative;
+    display: flex; /* Automatically sets list-style: none */
     margin-bottom: .7em;
 }
 
-li:last-child {
-    margin-bottom: 0;
+ul li {
+    align-items: center;
+    padding-left: 1em;
+    position: relative;
 }
 
-li::before {
+ul li::before {
     content: '•';
     font-size: 1.5em;
     position: absolute;
@@ -65,11 +67,15 @@ li::before {
     line-height: 1;
 }
 
-ul li div {
+li:last-child {
+    margin-bottom: 0;
+}
+
+li div {
     margin-left: 1em;
 }
 
-ul li div span {
+li div span {
     font-weight: 700;
     color: var(--Stone600);
 }
@@ -125,17 +131,92 @@ main {
 /* ===================== Ingredients ===================== */
 
 .ingredients-list ul li::before {
+    color: var(--Brown800);
+}
+
+/* ===================== Instructions ===================== */
+/* ------ Unordered list ------ */
+ol {
+    list-style: none;
+}
+
+ol li {
+    align-items: flex-start;
+    counter-increment: list;
+}
+
+ol li::before {
+    content: counter(list) ". ";
+    font-weight: 700;
     color: var(--Brown800)
 }
 
-/* ===================== footer ===================== */
-footer { 
-    position: relative;
-    bottom: 0;
+/* ===================== Nutrition ===================== */
+
+.nutrition-table {
+    display: grid;
+    margin-left: 2em;
+}
+
+.nutrition-table div {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+
+.nutrition-table div span {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+}
+
+.nutrition-value {
+    font-weight: 700;
+    color: var(--Brown800)
+}
+
+/* ===================== attribution ===================== */
+.attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 
-footer a { 
+.attribution a { 
     color: var(--Brown800); 
+}
+
+/* ===================== Responsive design ===================== */
+@media only screen and (min-width: 575px) {
+
+    body, html {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        width: 60vh;
+        margin: auto;
+    }
+
+    .img-container {
+        padding: 3vh;
+    }
+
+    .img-container img {
+        border-radius: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 767px) {
+    main {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    main {
+        width: 50%;
+    }
 }

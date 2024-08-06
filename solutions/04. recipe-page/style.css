@@ -17,18 +17,67 @@
 .body, html {
     height: 100%;
     margin: 0;
-    display: flex;
-    justify-content: center;
     font-family: 'Outfit', 'Young Serif', sans-serif;
     background-color: var(--Stone100);
     font-size: .9em;
+    color: var(--Stone600);
+    font-weight: 400;
+}
+
+/* ==================== General styles ================== */
+/* ----------- Title styles ------------ */
+.title, .subtitle {
+    font-family: 'Young Serif', sans-serif;
+    font-weight:400;
+    font-size: 1.5em;
+    color: var(--Stone900);
+}
+
+.subtitle {
+    color: var(--Brown800);
+    margin-bottom: 1em;
+}
+
+/* ----------- List styles ------------ */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    position: relative;
+    margin-bottom: .7em;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+li::before {
+    content: '•';
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    line-height: 1;
+}
+
+ul li div {
+    margin-left: 1em;
+}
+
+ul li div span {
+    font-weight: 700;
+    color: var(--Stone600);
 }
 
 /* ===================== Main content ===================== */
 main {
     background-color: var(--White);
     border-radius: 10px;
-    padding: 3vh;
     height: fit-content;
 }
 
@@ -36,41 +85,47 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    padding: 3vh;
     height: fit-content;
 }
 
 /* ------------- image ------------- */
 .img-container {
     text-align: center;
+    width: 100%;
 }
 
 .img-container img {
-    border-radius: 10px;
     width: 100%;
 }
 
 /* ------------- Title & description ------------- */
 .recipe-title {
-    font-family: 'Young Serif', sans-serif;
-    font-weight: 400;
-    font-size: 2cap;
+    font-size: 2em;
     margin-bottom: .35em;
 }
 
 /* ===================== Preparation time ===================== */
 .preparation-time {
     background-color: var(--Rose50);
-    padding: 2vh;
+    padding: 3vh;
+    border-radius: 10px;
 }
 
 .preparation-time-title {
     color: var(--Rose800);
     font-weight: 700;
+    margin-bottom: 1em;
 }
 
-.preparation-item {
-    font-weight: 700;
-    color: var(--Stone600)
+.preparation-time-content ul li::before { /* Give color to the list bullets */
+    color: var(--Rose800);
+ }
+
+/* ===================== Ingredients ===================== */
+
+.ingredients-list ul li::before {
+    color: var(--Brown800)
 }
 
 /* ===================== footer ===================== */

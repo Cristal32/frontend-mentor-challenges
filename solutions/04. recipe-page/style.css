@@ -21,7 +21,7 @@
 
 hr {
     border: none;
-    border-top: .5px solid var(--Stone100);
+    border-top: .5px solid var(--Stone150);
 }
 
 body, html {
@@ -83,7 +83,7 @@ li div span {
 /* ===================== Main content ===================== */
 main {
     background-color: var(--White);
-    border-radius: 10px;
+    border-radius: 20px;
     height: fit-content;
 }
 
@@ -92,6 +92,7 @@ main {
     flex-direction: column;
     gap: 2vh;
     padding: 3vh;
+    padding-top: 0;
     height: fit-content;
 }
 
@@ -99,6 +100,7 @@ main {
 .img-container {
     text-align: center;
     width: 100%;
+    margin-bottom: 2vh;
 }
 
 .img-container img {
@@ -108,7 +110,6 @@ main {
 /* ------------- Title & description ------------- */
 .recipe-title {
     font-size: 2em;
-    margin-bottom: .35em;
 }
 
 /* ===================== Preparation time ===================== */
@@ -155,7 +156,6 @@ ol li::before {
 
 .nutrition-table {
     display: grid;
-    margin-left: 2em;
 }
 
 .nutrition-table div {
@@ -168,6 +168,7 @@ ol li::before {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 100%;
+    margin-left: 2em;
 }
 
 .nutrition-value {
@@ -201,6 +202,8 @@ ol li::before {
 
     .img-container {
         padding: 3vh;
+        box-sizing: border-box;
+        margin-bottom: 0;
     }
 
     .img-container img {
@@ -216,6 +219,10 @@ ol li::before {
 }
 
 @media only screen and (min-width: 991px) {
+    body {
+        font-size: 1em;
+    }
+    
     main {
         width: 50%;
     }

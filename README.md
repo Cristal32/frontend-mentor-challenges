@@ -22,5 +22,10 @@
             <td><a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/03.%20social-links-profile">Social Links Profile</a></td>
             <td><a href="https://cristal32.github.io/frontend-mentor-challenges/solutions/03.%20social-links-profile/" target="_blank">Live Demo</a></td>
         </tr>
+        <tr>
+            <td>04. </td>
+            <td><a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/04.%20recipe-page">Recipe Page</a></td>
+            <td><a href="https://cristal32.github.io/frontend-mentor-challenges/solutions/04.%20recipe-page/" target="_blank">Live Demo</a></td>
+        </tr>
     </table>
 </div>

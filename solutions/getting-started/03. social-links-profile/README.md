@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repository/Code](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/03.%20social-links-profile)
-- Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/03.%20social-links-profile/)
+- Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/getting-started/03.%20social-links-profile/)
 
 ## My process
 

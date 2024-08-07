@@ -28,7 +28,7 @@ Mobile:
 ### Links
 
 - Solution URL: [Repository/Code](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/04.%20recipe-page)
-- Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/04.%20recipe-page/)
+- Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/getting-started/04.%20recipe-page/)
 
 ## My process
 

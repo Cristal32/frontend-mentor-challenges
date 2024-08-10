@@ -22,36 +22,101 @@ body, html {
     align-items: center;
     background-color: var(--LightGrayishBlue);
     font-family: 'Manrope', sans-serif;
+    color: var(--DesaturatedDarkBlue);
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+/* ============= General styles =============== */
+.bold {
+    color: var(--VeryDarkGrayishBlue);
+    font-weight: 700;
 }
 
 /* ============= Main content =============== */
 main {
+    position: relative;
     background-color: white;
     border-radius: 10px;
     width: 50vh;
+    z-index: 0;
 }
 
 /* ---------- Image ------------ */
 .img-container {
     display: block;
-    margin-bottom: 2vh;
     height: 33vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
 }
 
-.img-container img {
-    position: relative;
-    width: 100%;
-    object-fit: cover;
-    vertical-align: middle;
-    height: auto;
+/* ---------- Content ------------ */
+.wrapper {
+    padding: 5.5vh;
+    padding-bottom: 3vh;
 }
 
-/* ---------- Content ------------ */
-.content {
-    padding: 4vh;
+.title {
+    margin-bottom: 3vh;
+    font-size: 2.4vh;
+}
+
+.desc {
+    margin-bottom: 4vh;
+}
+
+/* ---------- Avatar ------------ */
+.avatar {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 6vh;
+}
+
+.share-btn {
+    background-color: var(--LightGrayishBlue);
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.share-btn:hover {
+    cursor: pointer;
+    background-color: var(--DesaturatedDarkBlue);
+}
+
+/* ============= Hidden share bar =============== */
+.share-bar {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--VeryDarkGrayishBlue);
+    padding: 3vh;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    justify-content: start;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* ============= Attribution =============== */

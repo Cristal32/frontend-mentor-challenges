@@ -9,27 +9,64 @@
   <title>Frontend Mentor | Article preview component</title>
 
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
 
   <main>
     <div class="img-container">
-      <img src="images/drawers.jpg" alt="Drawer image">
+      <img src="images/drawers.jpg" alt="Drawer image" width="100%">
     </div>
-    <div class="content">
-      <div class="wrapper">
-        Shift the overall look and feel by adding these wonderful 
-        touches to furniture in your home
+    <div class="wrapper">
+      <div>
+        <div class="title bold">
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </div>
 
-        Ever been in a room and felt like something was missing? Perhaps 
-        it felt slightly bare and uninviting. I’ve got some simple tips 
-        to help you make any room feel complete.
+        <div class="desc">
+          Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.
+        </div>
 
-        Michelle Appleton
-        28 Jun 2020
+        <div class="avatar">
+          <div class="profile">
+            <img class="profile-photo" src="images/avatar-michelle.jpg" alt="Avatar image">
+            
+            <div class="avatar-content">
+              <div class="avatar-name bold">
+                Michelle Appleton
+              </div>
+              
+              <div class="avatar-date">
+                28 Jun 2020
+              </div>
+            </div>
+            
+          </div>
 
-        Share
+          <div class="share-btn">
+            <img src="images/icon-share.svg" alt="Share">
+          </div>
+
+        </div>
       </div>
+    </div>
+
+    <div class="share-bar">
+      <div class="text-share">
+        S H A R E
+      </div>
+      <a class="link facebook" href="#">
+        <img src="images/icon-facebook.svg" alt="Facebook link">
+      </a>
+      <a class="link twitter" href="#">
+        <img src="images/icon-twitter.svg" alt="Twitter link">
+      </a>
+      <a class="link pinterest" href="#">
+        <img src="images/icon-pinterest.svg" alt="Pinterest link">
+      </a>
     </div>
   </main>
   

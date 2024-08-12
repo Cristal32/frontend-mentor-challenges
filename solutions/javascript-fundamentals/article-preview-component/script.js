@@ -1,10 +1,9 @@
 const sharebar = document.querySelector('.share-bar');
-const share_btn = document.querySelector('.share-btn');
+const share_btns = document.querySelectorAll('.share-btn');
 
-share_btn.addEventListener('click', function() {
-    if (sharebar.style.visibility === "hidden") {
-        sharebar.style.visibility = "visible";
-    } else {
-        sharebar.style.visibility = "hidden";
-    }
+share_btns.forEach((share_btn) => {
+    share_btn.addEventListener('click', function() {
+            sharebar.classList.toggle('visible');
+
+    });
 });

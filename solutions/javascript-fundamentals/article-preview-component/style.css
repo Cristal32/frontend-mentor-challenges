@@ -42,7 +42,7 @@ main {
     border-radius: 10px;
     z-index: 0;
     min-width: calc(100% - 60px);
-    box-shadow: var(--LightGrayishBlue) 0px 20px 25px -5px, var(--GrayishBlue) 0px 20px 30px -5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 10px 60px -2px;
 }
 
 /* ---------- Image ------------ */
@@ -174,7 +174,8 @@ main {
         display: flex;
         flex-direction: row;
         width: fit-content;
-        height: fit-content;
+        height: 42vh;
+        max-height: fit-content;
     }
 
     .img-container {
@@ -187,8 +188,7 @@ main {
     }
 
     .img-container img {
-        height: 100%;
-        width: fit-content;
+        width: 65vh;
     }
 
     .container {

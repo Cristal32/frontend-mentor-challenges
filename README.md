@@ -27,5 +27,10 @@
             <td><a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/getting-started/04.%20recipe-page">Recipe Page</a></td>
             <td><a href="https://cristal32.github.io/frontend-mentor-challenges/solutions/getting-started/04.%20recipe-page/" target="_blank">Live Demo</a></td>
         </tr>
+        <tr>
+            <td>05. </td>
+            <td><a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/getting-started/04.%20recipe-page">Recipe Page</a></td>
+            <td><a href="https://cristal32.github.io/frontend-mentor-challenges/solutions/getting-started/04.%20recipe-page/" target="_blank">Live Demo</a></td>
+        </tr>
     </table>
 </div>

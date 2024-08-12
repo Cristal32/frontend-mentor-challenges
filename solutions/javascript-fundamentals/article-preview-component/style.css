@@ -35,11 +35,14 @@ body, html {
 
 /* ============= Main content =============== */
 main {
+    display: inline-block;
+    margin: 3vh;
     position: relative;
     background-color: white;
     border-radius: 10px;
-    width: 50vh;
     z-index: 0;
+    min-width: calc(100% - 60px);
+    box-shadow: var(--LightGrayishBlue) 0px 20px 25px -5px, var(--GrayishBlue) 0px 20px 30px -5px;
 }
 
 /* ---------- Image ------------ */
@@ -52,7 +55,7 @@ main {
 }
 
 /* ---------- Content ------------ */
-.wrapper {
+.container {
     padding: 5.5vh;
     padding-bottom: 3vh;
 }
@@ -78,12 +81,14 @@ main {
 .profile {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 2vh;
 }
 
 .profile-photo {
     border-radius: 50%;
     width: 6vh;
+    height: 6vh;
 }
 
 .share-btn {
@@ -145,10 +150,6 @@ main {
     background-color: var(--GrayishBlue);
 }
 
-.share-bar .share-btn img {
-    color: var(--LightGrayishBlue);
-}
-
 /* ============= Attribution =============== */
 .attribution { 
     position: absolute;
@@ -159,4 +160,46 @@ main {
 
 .attribution a { 
     color: var(--DesaturatedDarkBlue); 
+}
+
+/* ============= Responsive design (Desktop/larger screens) =============== */
+@media only screen and (min-width: 414px) {
+    main {
+        width: 50vh;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .img-container {
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 50vh;
+        height: 100%;
+        max-height: 50vh;
+    }
+
+    .img-container img {
+        height: 100%;
+        width: fit-content;
+    }
+
+    .container {
+        height: fit-content;
+    }
+
+    .wrapper {
+        width: 60vh;
+    }
+
+    .title {
+        font-size: 2cap;
+    }
 }

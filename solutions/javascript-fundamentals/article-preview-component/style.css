@@ -127,10 +127,26 @@ main {
     transform: translateY(-10px);
 }
 
+.text-share {
+    color: var(--GrayishBlue)
+}
+
 .links {
     display: flex;
     flex-direction: row;
     gap: 3vh;
+}
+
+.share-bar .share-btn {
+    background-color: var(--DesaturatedDarkBlue);
+}
+
+.share-bar .share-btn:hover {
+    background-color: var(--GrayishBlue);
+}
+
+.share-bar .share-btn img {
+    color: var(--LightGrayishBlue);
 }
 
 /* ============= Attribution =============== */

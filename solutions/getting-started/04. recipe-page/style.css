@@ -113,25 +113,24 @@ main {
 }
 
 /* ===================== Preparation time ===================== */
-.preparation-time {
+#preparation-time {
     background-color: var(--Rose50);
     padding: 3vh;
     border-radius: 10px;
 }
 
-.preparation-time-title {
+#preparation-time .preparation-time-title {
     color: var(--Rose800);
     font-weight: 700;
     margin-bottom: 1em;
 }
 
-.preparation-time-content ul li::before { /* Give color to the list bullets */
+#preparation-time .preparation-time-content ul li::before { /* Give color to the list bullets */
     color: var(--Rose800);
  }
 
 /* ===================== Ingredients ===================== */
-
-.ingredients-list ul li::before {
+#ingredients .ingredients-list ul li::before {
     color: var(--Brown800);
 }
 
@@ -153,36 +152,35 @@ ol li::before {
 }
 
 /* ===================== Nutrition ===================== */
-
-.nutrition-table {
+#nutrition .nutrition-table {
     display: grid;
 }
 
-.nutrition-table div {
+#nutrition .nutrition-table div {
     display: flex;
     justify-content: center;
     padding: .5em;
 }
 
-.nutrition-table div span {
+#nutrition .nutrition-table div span {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 100%;
     margin-left: 2em;
 }
 
-.nutrition-value {
+#nutrition .nutrition-value {
     font-weight: 700;
     color: var(--Brown800)
 }
 
 /* ===================== attribution ===================== */
-.attribution { 
+footer { 
     font-size: 11px; 
     text-align: center; 
 }
 
-.attribution a { 
+footer a { 
     color: var(--Brown800); 
 }
 

@@ -124,27 +124,8 @@ By giving a different color to each side, we can start to understand how it work
 
 The result with a few adjustments to match the desired design:
 
-<div class="img-container">
-  <img src="screenshot-active.PNG" alt="Desktop screenshot with active share bar" width="350px" height="200px"/>
-  <img src="screenshotMobile-active.PNG" alt="Mobile screenshot with active share bar " width="200px" height="200px"/>
-</div>
-
-<style>
-  .img-container {
-    display: flex; 
-    flex-direction: column;
-    gap: 10px; 
-    justify-content: center;
-  }
-
-  @media only screen and (min-width: 575px) {
-    .img-container {
-      flex-direction: row;
-      gap: 10px; 
-      justify-content: center;
-    }
-  }
-</style>
+<img src="screenshot-active.PNG" alt="Desktop screenshot with active share bar" width="350px" height="200px"/>
+<img src="screenshotMobile-active.PNG" alt="Mobile screenshot with active share bar " width="200px" height="200px"/>
 
 ### Useful resources
 

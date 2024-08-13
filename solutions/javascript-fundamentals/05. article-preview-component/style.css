@@ -202,4 +202,31 @@ main {
     .title {
         font-size: 2cap;
     }
+
+    .share-bar {
+        width: fit-content;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        right: -10.2vh;
+        bottom: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 10px 60px -2px;
+
+    }
+
+    .share-bar.visible {
+        transform: translateY(-90px);
+    }
+
+    .share-bar::after {
+        position: absolute;
+        bottom: -15px; left: calc(50% - 15px);
+        display: block; width: 0; content: "";
+        border: 15px solid transparent;
+        border-top-color: var(--VeryDarkGrayishBlue);
+        border-bottom: 0;
+    }
+
+    .share-bar .share-btn {
+        display: none;
+    }
 }

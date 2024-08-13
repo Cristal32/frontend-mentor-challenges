@@ -17,6 +17,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 hr {
@@ -28,7 +29,7 @@ body, html {
     height: 100%;
     font-family: 'Outfit', 'Young Serif', sans-serif;
     background-color: var(--Stone100);
-    font-size: .9em;
+    font-size: 16px;
     color: var(--Stone600);
     font-weight: 400;
 }
@@ -38,7 +39,7 @@ body, html {
 .title, .subtitle {
     font-family: 'Young Serif', sans-serif;
     font-weight:400;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: var(--Stone900);
 }
 
@@ -61,7 +62,7 @@ ul li {
 
 ul li::before {
     content: '•';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     position: absolute;
     left: 0;
     line-height: 1;
@@ -109,7 +110,7 @@ main {
 
 /* ------------- Title & description ------------- */
 .recipe-title {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 /* ===================== Preparation time ===================== */
@@ -176,7 +177,7 @@ ol li::before {
 
 /* ===================== attribution ===================== */
 footer { 
-    font-size: 11px; 
+    font-size: .9rem; 
     text-align: center; 
 }
 

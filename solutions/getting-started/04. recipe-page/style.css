@@ -91,7 +91,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    padding: 3vh;
+    padding: 4vh;
     padding-top: 0;
     height: fit-content;
 }
@@ -198,6 +198,7 @@ ol li::before {
     main {
         width: 60vh;
         margin: auto;
+        padding: 1vh;
     }
 
     .img-container {

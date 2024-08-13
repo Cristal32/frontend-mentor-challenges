@@ -98,7 +98,7 @@ Initially, the share bar is invisible. If I click on the share button, it will a
   }
 ```
 
-The `::after` selector is designed to insert something at the end <span style="text-decoration: underline">after</span> the content of the element. So by defining the content aftter as "" (empty string), and reshaping it into an upside down triangle using the `border` property;
+The `::after` selector is designed to insert something at the end <span style="text-decoration: underline">after</span> the content of the element. So by defining the content after as "" (empty string), and reshaping it into an upside down triangle using the `border` property;
 
 By making the content empty and customizing the borders, we can play around with the 4 sides that form triangle shapes:
 

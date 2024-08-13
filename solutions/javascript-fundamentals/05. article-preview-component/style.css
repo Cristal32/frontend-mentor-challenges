@@ -133,7 +133,8 @@ main {
 }
 
 .text-share {
-    color: var(--GrayishBlue)
+    display: none;
+    color: var(--GrayishBlue);
 }
 
 .links {
@@ -166,6 +167,10 @@ footer a {
 @media only screen and (min-width: 414px) {
     main {
         width: 50vh;
+    }
+
+    .text-share {
+        display: block;
     }
 }
 

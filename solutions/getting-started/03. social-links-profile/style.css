@@ -100,15 +100,17 @@ main {
 }
 
 /* ===================== footer ===================== */
-.attribution { 
+footer { 
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     font-size: 11px; 
     text-align: center; 
 }
 
-.attribution a { 
+footer a { 
     color: var(--Green); 
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 /* ==================== Responsiveness ================ */

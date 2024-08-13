@@ -151,14 +151,14 @@ main {
 }
 
 /* ============= Attribution =============== */
-.attribution { 
+footer { 
     position: absolute;
     bottom: 0;
     font-size: 11px; 
     text-align: center; 
 }
 
-.attribution a { 
+footer a { 
     color: var(--DesaturatedDarkBlue); 
 }
 

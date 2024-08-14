@@ -27,9 +27,16 @@ body, html {
 
 /* ============= Main =============== */
 main {
+    background-color: var(--White);
+}
+
+#signup {
     display: flex;
     flex-direction: column;
-    background-color: var(--White);
+}
+
+#signup-success {
+    display: none;
 }
 
 /* ============= Image =============== */

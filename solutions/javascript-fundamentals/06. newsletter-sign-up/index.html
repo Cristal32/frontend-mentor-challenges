@@ -6,63 +6,72 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/images/favicon-32x32.png">
 
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   
 </head>
 <body>
 
-  <!-- Sign-up form start -->
   <main>
-    <figure>
-      <img src="assets/images/illustration-sign-up-mobile.svg" alt="Mobile image for signup newsletter">
-    </figure>
 
-    <div id="container">
-      <div id="title">
-        <h1>Stay updated!</h1>
-      </div>
-  
-      <div id="desc">
-        Join 60,000+ product managers receiving monthly updates on:
-      </div>
-  
-      <div id="updates-list">
-        <ul>
-          <li>Product discovery and building what matters</li>
-          <li>Measuring to ensure updates are a success</li>
-          <li>And much more!</li>
-        </ul>
-      </div>
-  
-      <div id="email">
-        <form action="">
-          <label for="email">Email adress</label>
-          
-          <input id="email" name="email" type="email" placeholder="email@company.com" />
-          <span aria-live="polite" id="email-error"></span>
+    <!-- Sign-up form start -->
 
-          <button aria-label="Submit subscription form">Subscribe to monthly newsletter</button>
-        </form>
+    <div id="signup">
+      <figure>
+        <img src="assets/images/illustration-sign-up-mobile.svg" alt="Mobile image for signup newsletter">
+      </figure>
+  
+      <div id="container">
+        <div id="title">
+          <h1>Stay updated!</h1>
+        </div>
+    
+        <div id="desc">
+          Join 60,000+ product managers receiving monthly updates on:
+        </div>
+    
+        <div id="updates-list">
+          <ul>
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+        </div>
+    
+        <div id="email">
+          <form id="signup-form" action="">
+            <label for="emailInput">Email adress</label>
+            
+            <input id="emailInput" name="email" type="email" placeholder="email@company.com" autocomplete="on" required/>
+            <span aria-live="polite" id="email-error"></span>
+  
+            <button aria-label="Submit subscription form">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
       </div>
     </div>
+
+    <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+
+    <div id="signup-success">
+      Thanks for subscribing!
+
+      A confirmation email has been sent to ash@loremcompany.com. 
+      Please open it and click the button inside to confirm your subscription.
+
+      Dismiss message
+    </div>
+
+    <!-- Success message end -->
+    
   </main>
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  <!-- Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message -->
-
-  <!-- Success message end -->
   
   <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

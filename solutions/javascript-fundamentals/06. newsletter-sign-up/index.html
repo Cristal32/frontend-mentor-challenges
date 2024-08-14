@@ -21,12 +21,15 @@
 
     <!-- Sign-up form start -->
 
-    <div id="signup">
+    <div id="signup" class="container">
       <figure>
-        <img src="assets/images/illustration-sign-up-mobile.svg" alt="Mobile image for signup newsletter">
+        <picture>
+          <source media="(min-width: 414px)" srcset="assets/images/illustration-sign-up-desktop.svg" alt="Desktop image for signup newsletter">
+          <img src="assets/images/illustration-sign-up-mobile.svg" alt="Mobile image for signup newsletter">
+        </picture>
       </figure>
   
-      <div id="container">
+      <div class="wrapper">
         <div class="title">
           <h1>Stay updated!</h1>
         </div>
@@ -60,7 +63,7 @@
 
     <!-- Success message start -->
 
-    <div id="signup-success">
+    <div id="signup-success" class="container">
       <div id="signup-success-msg">
         <figure id="icon-success">
           <img src="assets/images/icon-success.svg" alt="">

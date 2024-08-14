@@ -21,7 +21,9 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: var(--DarkSlateGrey);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--CharcoalGrey);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -45,18 +47,18 @@ main {
     background-color: var(--White);
 }
 
-#signup {
+.container {
     display: flex;
     flex-direction: column;
 }
 
 /* ============= Image =============== */
-figure img {
+figure picture {
     width: 100%;
 }
 
 /* ============= Content =============== */
-#container {
+.wrapper {
     padding: 3vh;
     display: flex;
     flex-direction: column;
@@ -89,7 +91,6 @@ input {
 #signup-success {
     height: 100vh;
     display: none;
-    flex-direction: column;
     justify-content: space-between;
     padding: 3vh;
 }
@@ -106,7 +107,7 @@ input {
 }
 
 #signup-success button {
-   margin-bottom: 5vh;
+   margin-bottom: 3vh;
 }
 
 /* ============= Attribution =============== */
@@ -121,4 +122,37 @@ footer {
 footer a { 
     color: var(--Tomato); 
     text-decoration: underline bold;
+}
+
+/* ============= Responsive design =============== */
+@media only screen and (min-width: 414px) {
+    main {
+        width: fit-content;
+        height: fit-content;
+        padding: 2vh;
+        border-radius: 15px;
+    }
+
+    .container {
+        width: 100vh;
+        flex-direction: row-reverse;
+    }
+
+    .wrapper {
+        width: 100vh;
+        padding: 5vh;
+    }
+
+    figure {
+        width: 100%;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    footer { 
+        background-color: var(--CharcoalGrey);
+        color: var(--White);
+    }
 }

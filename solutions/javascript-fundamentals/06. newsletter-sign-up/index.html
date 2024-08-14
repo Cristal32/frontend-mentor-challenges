@@ -27,7 +27,7 @@
       </figure>
   
       <div id="container">
-        <div id="title">
+        <div class="title">
           <h1>Stay updated!</h1>
         </div>
     
@@ -44,8 +44,8 @@
         </div>
     
         <div id="email">
-          <form id="signup-form" action="">
-            <label for="emailInput">Email adress</label>
+          <form class="form" action="">
+            <label for="emailInput" class="bold">Email adress</label>
             
             <input id="emailInput" name="email" type="email" placeholder="email@company.com" autocomplete="on" required/>
             <span aria-live="polite" id="email-error"></span>
@@ -61,17 +61,30 @@
     <!-- Success message start -->
 
     <div id="signup-success">
-      Thanks for subscribing!
+      <div id="signup-success-msg">
+        <figure id="icon-success">
+          <img src="assets/images/icon-success.svg" alt="">
+        </figure>
+  
+        <div class="title">
+          <h1>Thanks for subscribing!</h1>
+        </div>
+  
+        <div>
+          A confirmation email has been sent to <span id="success-email" class="bold"></span>. 
+          Please open it and click the button inside to confirm your subscription.
+        </div>
+      </div>
 
-      A confirmation email has been sent to ash@loremcompany.com. 
-      Please open it and click the button inside to confirm your subscription.
-
-      Dismiss message
+      <form class="form" action="">
+        <button>Dismiss message</button>
+      </form>      
     </div>
 
     <!-- Success message end -->
-    
+
   </main>
+
   
   <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

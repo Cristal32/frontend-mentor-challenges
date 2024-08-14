@@ -9,7 +9,7 @@
     --White: hsl(0, 0%, 100%);
 }
 
-/* ============= Body =============== */
+/* ============= Body/General styles =============== */
 * {
     margin: 0;
     padding: 0;
@@ -19,10 +19,25 @@
 body, html {
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: var(--DarkSlateGrey);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+button {
+    width: 100%;
+    background-color: var(--DarkSlateGrey);
+    color: var(--White);
+    padding: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
 }
 
 /* ============= Main =============== */
@@ -33,10 +48,6 @@ main {
 #signup {
     display: flex;
     flex-direction: column;
-}
-
-#signup-success {
-    display: none;
 }
 
 /* ============= Image =============== */
@@ -65,10 +76,6 @@ li::before {
 }
 
 /* --- Email --- */
-label {
-    font-weight: 700;
-}
-
 input {
     width: 100%;
     padding: 1rem;
@@ -78,12 +85,28 @@ input {
     margin-bottom: 3vh;
 }
 
-button {
-    width: 100%;
-    background-color: var(--DarkSlateGrey);
-    color: var(--White);
-    padding: 1rem;
-    border-radius: 7px;
+/* ============= Signup success page =============== */
+#signup-success {
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh;
+}
+
+#signup-success-msg {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+#icon-success {
+    width: 6vh
+}
+
+#signup-success button {
+   margin-bottom: 5vh;
 }
 
 /* ============= Attribution =============== */

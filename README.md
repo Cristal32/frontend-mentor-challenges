@@ -32,5 +32,10 @@
             <td><a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/javascript-fundamentals/05.%20article-preview-component">Article Preview Component</a></td>
             <td><a href="https://cristal32.github.io/frontend-mentor-challenges/solutions/javascript-fundamentals/05.%20article-preview-component/" target="_blank">Live Demo</a></td>
         </tr>
+        <tr>
+            <td>06. </td>
+            <td><a href="https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/javascript-fundamentals/06.%20newsletter-sign-up">Newsletter Signup</a></td>
+            <td><a href="https://cristal32.github.io/frontend-mentor-challenges/solutions/javascript-fundamentals/06.%20newsletter-sign-up/" target="_blank">Live Demo</a></td>
+        </tr>
     </table>
 </div>

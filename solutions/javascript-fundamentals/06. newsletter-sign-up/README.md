@@ -46,7 +46,7 @@ Signup Success view:
 
 ### Links
 
-- Solution URL: [Repository/Code](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/javascript-fundamentals/06.%20newsletter-sign-up)
+- Solution URL: [Frontend solution](https://www.frontendmentor.io/solutions/responsive-signup-newsletter-with-javascript-YKbny6SsT9)
 - Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/javascript-fundamentals/06.%20newsletter-sign-up/)
 
 ## My process

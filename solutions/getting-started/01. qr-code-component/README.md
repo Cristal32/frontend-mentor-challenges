@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Repository/Code](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/getting-started/01.%20qr-code-componentt)
+- Solution URL: [Frontend solution](https://www.frontendmentor.io/solutions/qr-code-component-solution-with-css-flexbox-4e1FKete9H)
 - Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/01.%20qr-code-component/)
 
 ## My process

@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository/Code](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/javascript-fundamentals/05.%20article-preview-component)
+- Solution URL: [Frontend solution](https://www.frontendmentor.io/solutions/interactive-article-preview-component-with-smooth-appearing-share-bar-rL_Onol7ay)
 - Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/javascript-fundamentals/05.%20article-preview-component/)
 
 ## My process

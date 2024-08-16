@@ -74,6 +74,10 @@ figure img {
     gap: 3vh;
 }
 
+.title {
+    color: var(--DarkSlateGrey);
+}
+
 /* --- List --- */
 li {
     display: flex; /* Automatically sets list-style: none */

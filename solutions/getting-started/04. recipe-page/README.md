@@ -27,7 +27,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Repository/Code](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/04.%20recipe-page)
+- Solution URL: [Frontend solution](https://www.frontendmentor.io/solutions/responsive-recipe-page-with-flex-and-grid-layouts-h5NQ9Rw7Az)
 - Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/getting-started/04.%20recipe-page/)
 
 ## My process

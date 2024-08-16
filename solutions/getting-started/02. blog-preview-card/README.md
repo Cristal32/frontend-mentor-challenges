@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository/Code](https://github.com/Cristal32/frontend-mentor-challenges/tree/main/solutions/02.%20blog-preview-card)
+- Solution URL: [Frontend solution](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-Dr48RX2xBn)
 - Live Site URL: [Live Demo](https://cristal32.github.io/frontend-mentor-challenges/solutions/getting-started/02.%20blog-preview-card/)
 
 ## My process

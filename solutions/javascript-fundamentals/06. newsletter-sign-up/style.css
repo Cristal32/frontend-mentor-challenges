@@ -155,15 +155,9 @@ footer a {
 
     #signup-success button {
         margin-bottom: 0;
-     }
-}
-
-@media only screen and (min-width: 768px) {
-    main {
-        display: block;
-        overflow: hidden;
     }
 }
+
 
 @media only screen and (min-width: 1010px) {
     main {
@@ -189,6 +183,10 @@ footer a {
 
     figure img {
         width: 100%;
+    }
+
+    .title {
+        font-size: 1.4rem;
     }
 
     footer { 

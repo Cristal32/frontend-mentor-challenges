@@ -3,6 +3,8 @@
 /* ============= Colors =============== */
 :root {
     --Tomato: hsl(4, 100%, 67%);
+    --FadedTomato: hsl(8, 86%, 75%);
+    --VenetianRed: #ff558b;
     --DarkSlateGrey: hsl(234, 29%, 20%);
     --CharcoalGrey: hsl(235, 18%, 26%);
     --Grey: hsl(231, 7%, 60%);
@@ -40,11 +42,18 @@ button {
     padding: 1rem;
     border-radius: 7px;
     cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: linear-gradient(90deg, var(--VenetianRed) 0%, var(--Tomato) 100%);
+    box-shadow: var(--FadedTomato) 0px 13px 27px -5px;
 }
 
 /* ============= Main =============== */
 main {
     background-color: var(--White);
+    border-radius: 20px;
 }
 
 .container {
@@ -53,7 +62,7 @@ main {
 }
 
 /* ============= Image =============== */
-figure picture {
+figure img {
     width: 100%;
 }
 
@@ -112,11 +121,10 @@ input {
 
 /* ============= Attribution =============== */
 footer { 
-    background-color: var(--White);
     width: 100%;
     font-size: 11px; 
     text-align: center; 
-    color: var(--CharcoalGrey);
+    color: var(--White);
 }
 
 footer a { 
@@ -125,23 +133,51 @@ footer a {
 }
 
 /* ============= Responsive design =============== */
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 768px) {
+    main {
+        display: block;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 1010px) {
     main {
         width: fit-content;
         height: fit-content;
         padding: 2vh;
-        border-radius: 15px;
+        border-radius: 20px;
     }
 
-    .container {
+    #signup {
+        display: none;
         width: 100vh;
         flex-direction: row-reverse;
     }
 
-    .wrapper {
+    #signup .wrapper {
         width: 100vh;
         padding: 5vh;
     }
+
+    #signup-success {
+        padding: 2rem;
+        display: flex;
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #signup-succes .wrapper {
+        height: fit-content;
+    }
+
+    #signup-success-msg {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    #signup-success button {
+        margin-bottom: 0;
+     }
 
     figure {
         width: 100%;

@@ -67,10 +67,6 @@ figure img {
 }
 
 /* ============= Content =============== */
-#signup {
-    display: none;
-}
-
 #signup .wrapper {
     padding: 3vh;
     display: flex;
@@ -103,7 +99,7 @@ input {
 /* ============= Signup success page =============== */
 #signup-success {
     height: 100vh;
-    display: flex;
+    display: none;
     justify-content: space-between;
     padding: 3vh;
 }
@@ -140,7 +136,6 @@ footer a {
 @media only screen and (min-width: 414px) {
     #signup-success {
         padding: 2rem;
-        display: flex;
         width: 400px;
         height: 400px;
     }
@@ -175,7 +170,6 @@ footer a {
     }
 
     #signup {
-        display: none;
         width: 100vh;
         flex-direction: row-reverse;
     }

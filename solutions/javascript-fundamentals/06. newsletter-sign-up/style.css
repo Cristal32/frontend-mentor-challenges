@@ -67,7 +67,11 @@ figure img {
 }
 
 /* ============= Content =============== */
-.wrapper {
+#signup {
+    display: none;
+}
+
+#signup .wrapper {
     padding: 3vh;
     display: flex;
     flex-direction: column;
@@ -99,7 +103,7 @@ input {
 /* ============= Signup success page =============== */
 #signup-success {
     height: 100vh;
-    display: none;
+    display: flex;
     justify-content: space-between;
     padding: 3vh;
 }
@@ -133,6 +137,28 @@ footer a {
 }
 
 /* ============= Responsive design =============== */
+@media only screen and (min-width: 414px) {
+    #signup-success {
+        padding: 2rem;
+        display: flex;
+        width: 400px;
+        height: 400px;
+    }
+
+    #signup-success .wrapper {
+        height: fit-content;
+    }
+
+    #signup-success-msg {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    #signup-success button {
+        margin-bottom: 0;
+     }
+}
+
 @media only screen and (min-width: 768px) {
     main {
         display: block;
@@ -158,26 +184,6 @@ footer a {
         width: 100vh;
         padding: 5vh;
     }
-
-    #signup-success {
-        padding: 2rem;
-        display: flex;
-        width: 30vw;
-        height: 30vw;
-    }
-
-    #signup-succes .wrapper {
-        height: fit-content;
-    }
-
-    #signup-success-msg {
-        margin-top: 0;
-        margin-bottom: 2rem;
-    }
-
-    #signup-success button {
-        margin-bottom: 0;
-     }
 
     figure {
         width: 100%;

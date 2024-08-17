@@ -4,7 +4,7 @@
 :root {
     /* Primary */
     --Blue: hsl(246, 80%, 60%);
-    --LightRed : hsl(15, 100%, 70%);
+    --Orange : hsl(15, 100%, 70%);
     --SoftBlue : hsl(195, 74%, 62%);
     --LightRed : hsl(348, 100%, 68%);
     --LimeGreen : hsl(145, 58%, 55%);
@@ -19,7 +19,7 @@
 }
 
 /* ============= Body/General styles =============== */
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,7 +39,13 @@ body, html {
 }
 
 main {
-    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-height: 100vh;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -48,11 +54,6 @@ main {
 .title {
     color: white;
     font-size: 1.5rem;
-}
-
-.card {
-    border-radius: 15px;
-    padding: 2rem;
 }
 
 /* ============= User card =============== */
@@ -94,6 +95,62 @@ main {
 .time-wrapper div {
     padding: 1.8rem;
     color: var(--DesaturatedBlue);
+}
+
+/* ============= Card structure =============== */
+.card {
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.dashboard-card {
+    border-radius: 15px;
+}
+
+.dashboard-card figure {
+    display: block;
+    overflow: hidden;
+    height: 4.3vh;
+}
+
+.dashboard-card figure .img-container {
+    display: flex;
+    justify-content: end;
+    padding-inline-end: 1rem;
+}
+
+.dashboard-card figure img {
+    width: 15vw;
+}
+
+.card-content {
+    width: 100%;
+    background-color: var(--DarkBlue);
+}
+
+/* ============= Specific card styling =============== */
+#work-card {
+    background-color: var(--Orange);
+}
+
+#play-card {
+    background-color: var(--SoftBlue);
+}
+
+#study-card {
+    background-color: var(--LightRed);
+}
+
+#exercice-card {
+    background-color: var(--LimeGreen);
+}
+
+#social-card {
+    background-color: var(--Violet);
+}
+
+#self-care-card {
+    background-color: var(--SoftOrange);
 }
 
 /* ============= Attribution =============== */

@@ -168,10 +168,9 @@ footer {
     width: 100%;
     font-size: 11px; 
     text-align: center; 
-    color: var(--White);
 }
 
 footer a { 
-    color: var(--Tomato); 
+    color: var(--Blue); 
     text-decoration: underline bold;
 }

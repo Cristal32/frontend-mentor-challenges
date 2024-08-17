@@ -91,6 +91,13 @@ li::before {
 }
 
 /* --- Email --- */
+.email-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--Tomato)
+}
+
 input {
     width: 100%;
     padding: 1rem;
@@ -98,6 +105,10 @@ input {
     border-radius: 10px;
     margin-top: 1.5vh;
     margin-bottom: 3vh;
+}
+
+#email-error {
+    display: none;
 }
 
 /* ============= Signup success page =============== */
